@@ -5,7 +5,7 @@ import helmet from "helmet";
 import passport from "passport";
 
 // Database Connection
-import ConnectDB from "./src/database/connection";
+import ConnectDB from "./database/connection";
 
 // google authentication config
 import googleAuthConfig from "./config/google.config";
