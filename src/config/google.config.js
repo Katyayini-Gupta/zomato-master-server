@@ -1,6 +1,6 @@
 require("dotenv").config();
 import googleOAuth from "passport-google-oauth20";
-import { UserModel } from "../src/database/allModels";
+import { UserModel } from "../database/allModels";
 
 
 const GoogleStrategy = googleOAuth.Strategy;

@@ -3,7 +3,7 @@ import express from "express";
 import passport from "passport";
 
 // Models
-import { UserModel } from "../../src/database/allModels";
+import { UserModel } from "../../database/allModels";
 
 // Validation
 import { ValidateSignin, ValidateSignup } from "../../validation/auth";
